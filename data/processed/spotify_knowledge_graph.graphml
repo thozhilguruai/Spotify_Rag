@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Frontend">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <node id="Backend">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <node id="Database">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <node id="Search">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <node id="Authentication">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <node id="Storage">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <node id="Infrastructure">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <node id="Messaging">
+      <data key="d0">ArchitectureConcept</data>
+    </node>
+    <edge source="Frontend" target="Backend">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Frontend" target="Database">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Frontend" target="Search">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Frontend" target="Authentication">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Frontend" target="Storage">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Frontend" target="Infrastructure">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Frontend" target="Messaging">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Backend" target="Database">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Backend" target="Search">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Backend" target="Authentication">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Backend" target="Storage">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Backend" target="Infrastructure">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Backend" target="Messaging">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Database" target="Search">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Database" target="Authentication">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Database" target="Storage">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Database" target="Infrastructure">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Database" target="Messaging">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Search" target="Authentication">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Search" target="Storage">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Search" target="Infrastructure">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Search" target="Messaging">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Authentication" target="Storage">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Authentication" target="Infrastructure">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Authentication" target="Messaging">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Storage" target="Infrastructure">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Storage" target="Messaging">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+    <edge source="Infrastructure" target="Messaging">
+      <data key="d1">MentionedTogether</data>
+    </edge>
+  </graph>
+</graphml>
