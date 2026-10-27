@@ -1,0 +1,15 @@
+services:
+  spotify-rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: spotify-rag-app
+
+    ports:
+      - "8501:8501"
+
+    env_file:
+      - .env
+
+    restart: unless-stopped
